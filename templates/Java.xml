@@ -1,0 +1,9 @@
+<templateSet group="Java">
+  <template name="pf" value="private final $CLASS_NAME$ $fieldName$;&#10;$END$" description="private final field" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

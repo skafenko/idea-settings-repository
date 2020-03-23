@@ -1,0 +1,21 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="Jenkins" type="Groovy" />
+      <mapping pattern="Jenkinsfile" type="Groovy" />
+      <mapping pattern="updatRegisteredAccount" type="JSON" />
+      <mapping ext="cfg" type="Native" />
+      <mapping pattern="mvnw" type="PLAIN_TEXT" />
+      <mapping pattern="as" type="PLAIN_TEXT" />
+      <mapping pattern="s" type="PLAIN_TEXT" />
+      <mapping pattern="f" type="PLAIN_TEXT" />
+      <mapping pattern="а" type="PLAIN_TEXT" />
+      <mapping pattern="updatRegisteredAccount.json" type="PLAIN_TEXT" />
+      <mapping ext="wav" type="PLAIN_TEXT" />
+      <mapping ext="example" type="PLAIN_TEXT" />
+      <mapping ext="raw" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

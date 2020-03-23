@@ -1,0 +1,41 @@
+<application>
+  <component name="dataSourceStorage" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="SM_QA_DB" uuid="df7df86a-8390-4926-b754-9e6610485cf1">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://sm-qa-db.smiddle.lab:3306</jdbc-url>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="CONVERT_TO_NULL" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="SM_DEV_DB" uuid="539b4ce4-009f-4b97-a97f-b834995bae0b">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.100.70.20:3306/SM_DEV_DB</jdbc-url>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="CONVERT_TO_NULL" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="localhost" uuid="65f6b1b2-4f3f-4749-833a-9064ca1361ae">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/flyway</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="10.100.80.11" uuid="3434ba18-24c7-4f55-b2c6-e90d585e78e9">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.driver.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@10.100.80.11:1521:SMIDDLE</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="90.14" uuid="12e1ce1b-d725-49df-a511-e8d4a1de17fd">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.100.90.14:3306</jdbc-url>
+    </data-source>
+  </component>
+</application>

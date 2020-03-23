@@ -1,0 +1,9 @@
+<templateSet group="Spring">
+  <template name="bean" value="@Bean&#10;public $CLASS_NAME$ $mthdName$() {&#10;  return new $CLASS_NAME$($END$);&#10;}" description="Create spring bean" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="mthdName" expression="camelCase(CLASS_NAME)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

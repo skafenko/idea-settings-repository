@@ -1,0 +1,3 @@
+<application>
+  <component name="MavenVersion" vmOptions="-Xmx4072m" embedderJdk="1.8_181" />
+</application>

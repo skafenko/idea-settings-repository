@@ -1,0 +1,137 @@
+<application>
+  <component name="SonarLintGlobalSettings">
+    <option name="excludedRules">
+      <set>
+        <option value="squid:AssignmentInSubExpressionCheck" />
+        <option value="squid:MaximumInheritanceDepth" />
+        <option value="squid:RedundantThrowsDeclarationCheck" />
+        <option value="squid:S00100" />
+        <option value="squid:S00107" />
+        <option value="squid:S00112" />
+        <option value="squid:S00120" />
+        <option value="squid:S1075" />
+        <option value="squid:S1125" />
+        <option value="squid:S1165" />
+        <option value="squid:S1170" />
+        <option value="squid:S1186" />
+        <option value="squid:S1191" />
+        <option value="squid:S1199" />
+        <option value="squid:S1214" />
+        <option value="squid:S1301" />
+        <option value="squid:S1452" />
+        <option value="squid:S1610" />
+        <option value="squid:S1710" />
+        <option value="squid:S1948" />
+        <option value="squid:S2142" />
+        <option value="squid:S2187" />
+        <option value="squid:S2229" />
+        <option value="squid:S2234" />
+        <option value="squid:S2696" />
+        <option value="squid:S2975" />
+        <option value="squid:S3358" />
+        <option value="squid:S3420" />
+        <option value="squid:S3510" />
+        <option value="squid:S3776" />
+        <option value="squid:S4424" />
+        <option value="squid:S4684" />
+        <option value="squid:SwitchLastCaseIsDefaultCheck" />
+      </set>
+    </option>
+    <option name="fileExclusions">
+      <list>
+        <option value="**/*.xml" />
+      </list>
+    </option>
+    <option name="includedRules">
+      <set>
+        <option value="squid:CallToFileDeleteOnExitMethod" />
+        <option value="squid:ClassCyclomaticComplexity" />
+        <option value="squid:LeftCurlyBraceEndLineCheck" />
+        <option value="squid:NoSonar" />
+        <option value="squid:ParsingError" />
+        <option value="squid:RightCurlyBraceSameLineAsNextBlockCheck" />
+        <option value="squid:RightCurlyBraceStartLineCheck" />
+        <option value="squid:S00104" />
+        <option value="squid:S00121" />
+        <option value="squid:S00122" />
+        <option value="squid:S1132" />
+        <option value="squid:S1145" />
+        <option value="squid:S1147" />
+        <option value="squid:S1160" />
+        <option value="squid:S1194" />
+        <option value="squid:S1213" />
+        <option value="squid:S1228" />
+        <option value="squid:S1244" />
+        <option value="squid:S1310" />
+        <option value="squid:S1312" />
+        <option value="squid:S1314" />
+        <option value="squid:S1315" />
+        <option value="squid:S138" />
+        <option value="squid:S1448" />
+        <option value="squid:S1641" />
+        <option value="squid:S1695" />
+        <option value="squid:S1696" />
+        <option value="squid:S1697" />
+        <option value="squid:S1698" />
+        <option value="squid:S1711" />
+        <option value="squid:S1821" />
+        <option value="squid:S1850" />
+        <option value="squid:S1939" />
+        <option value="squid:S1942" />
+        <option value="squid:S1996" />
+        <option value="squid:S2039" />
+        <option value="squid:S2047" />
+        <option value="squid:S2059" />
+        <option value="squid:S2063" />
+        <option value="squid:S2070" />
+        <option value="squid:S2089" />
+        <option value="squid:S2096" />
+        <option value="squid:S2141" />
+        <option value="squid:S2148" />
+        <option value="squid:S2156" />
+        <option value="squid:S2162" />
+        <option value="squid:S2164" />
+        <option value="squid:S2196" />
+        <option value="squid:S2197" />
+        <option value="squid:S2203" />
+        <option value="squid:S2250" />
+        <option value="squid:S2333" />
+        <option value="squid:S2444" />
+        <option value="squid:S2693" />
+        <option value="squid:S2701" />
+        <option value="squid:S2959" />
+        <option value="squid:S2973" />
+        <option value="squid:S3047" />
+        <option value="squid:S3052" />
+        <option value="squid:S3254" />
+        <option value="squid:S3282" />
+        <option value="squid:S3306" />
+        <option value="squid:S3329" />
+        <option value="squid:S3369" />
+        <option value="squid:S3373" />
+        <option value="squid:S3419" />
+        <option value="squid:S3553" />
+        <option value="squid:S3658" />
+        <option value="squid:S3750" />
+        <option value="squid:S3937" />
+        <option value="squid:S4174" />
+        <option value="squid:S4266" />
+        <option value="squid:S4288" />
+        <option value="squid:S4551" />
+        <option value="squid:S818" />
+        <option value="squid:S888" />
+      </set>
+    </option>
+    <option name="sonarQubeServers">
+      <list>
+        <SonarQubeServer>
+          <option name="hostUrl" value="http://sm-sonar.smiddle.lab/dashboard?id=com.smiddle.recording" />
+          <option name="name" value="Smiddle" />
+          <option name="login" value="admin" />
+          <password>dfcbdfcedfc7dfc3dfc4</password>
+          <organizationKey>default-organization</organizationKey>
+        </SonarQubeServer>
+      </list>
+    </option>
+  </component>
+</application>
