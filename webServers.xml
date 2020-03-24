@@ -9,14 +9,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="30d7c0a1-d353-4859-9c53-29970522990a" name="10.100.70.25" url="http://10.100.70.25">
-        <fileTransfer host="10.100.70.25" port="22" rootFolder="/tomcat" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
       <webServer id="e4dee6e4-a9c0-442d-ad66-e0d598d944ae" name="10.100.80.25" url="http://10.100.80.25">
         <fileTransfer host="10.100.80.25" port="22" accessType="SFTP">
           <advancedOptions>
@@ -59,14 +51,6 @@
       </webServer>
       <webServer id="c82515ee-1737-4f6e-86f3-88cc41d96cb8" name="10.100.70.154" url="http://10.100.70.154:8080">
         <fileTransfer host="10.100.70.154" port="22" rootFolder="/tomcat" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="f8bfb166-8135-407a-b471-124cab8f5602" name="10.100.70.57" url="http://10.100.70.57:8080">
-        <fileTransfer host="10.100.70.57" port="22" rootFolder="/tomcat/webapps" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -179,6 +163,14 @@
       </webServer>
       <webServer id="a3314fe3-58a4-439b-8027-7ff0bc49993d" name="sm-qa-voiceid" url="http://10.100.70.31:8080">
         <fileTransfer host="10.100.70.31" port="22" rootFolder="/tomcat/webapps" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f54b9e1b-a422-4fec-b7b5-4f3cb930bfab" name="sm-dev-svb" url="http://10.100.70.150:8080">
+        <fileTransfer host="10.100.70.150" port="22" rootFolder="/tomcat/webapps" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
