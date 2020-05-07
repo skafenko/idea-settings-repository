@@ -201,6 +201,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="98526605-91d5-453c-a800-9da978d5ec20" name="sm-qa-ssap" url="http://sm-qa-ssap.smiddle.lab:8080">
+        <fileTransfer host="sm-qa-ssap.smiddle.lab" port="22" rootFolder="/tomcat/webapps" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
