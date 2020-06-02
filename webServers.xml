@@ -209,6 +209,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="aecd4449-3fb0-421c-89a5-4266a6a5f09b" name="10.100.90.14" url="http://10.100.70.154:8080">
+        <fileTransfer host="10.100.90.14" port="22" rootFolder="/tomcat" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
