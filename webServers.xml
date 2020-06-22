@@ -249,6 +249,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="41f8d18b-61a4-48f9-aed4-ca91cb9e415a" name="sm-qa-ins" url="http://sm-qa-ins.smiddle.lab:8080">
+        <fileTransfer host="sm-qa-ins.smiddle.lab" port="22" rootFolder="/tomcat/webapps" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
