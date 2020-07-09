@@ -1142,6 +1142,26 @@
           </option>
           <option name="targetPath" value="" />
         </WebDeploymentTransportHostTarget>
+        <WebDeploymentTransportHostTarget>
+          <option name="hostId" value="1997a615-2c9e-42f5-9c5c-1f2ff23efd97" />
+          <option name="target">
+            <TransportTarget>
+              <option name="id" value="27edab6e-30a9-4c13-ab7d-d7ad2faa36d2" />
+              <id>27edab6e-30a9-4c13-ab7d-d7ad2faa36d2</id>
+            </TransportTarget>
+          </option>
+          <option name="targetPath" value="" />
+        </WebDeploymentTransportHostTarget>
+        <WebDeploymentTransportHostTarget>
+          <option name="hostId" value="1997a615-2c9e-42f5-9c5c-1f2ff23efd97" />
+          <option name="target">
+            <TransportTarget>
+              <option name="id" value="26b4336a-b2e6-4b8f-8273-670cab330223" />
+              <id>26b4336a-b2e6-4b8f-8273-670cab330223</id>
+            </TransportTarget>
+          </option>
+          <option name="targetPath" value="" />
+        </WebDeploymentTransportHostTarget>
       </list>
     </option>
   </component>
