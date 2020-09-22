@@ -185,6 +185,102 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="f64244ed-dc12-4ce6-a436-93d14d107467" name="sm-qa-fs" url="http://sm-qa-mgr.smiddle.lab:8080">
+        <fileTransfer host="sm-qa-fs.smiddle.lab" port="22" rootFolder="/tomcat/webapps" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="eef10a3d-a5c7-465e-a31c-82babfa03200" name="sm-qa-mgr" url="http://sm-qa-mgr.smiddle.lab:8080">
+        <fileTransfer host="sm-qa-mgr.smiddle.lab" port="22" rootFolder="/tomcat/webapps" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="98526605-91d5-453c-a800-9da978d5ec20" name="sm-qa-ssap" url="http://sm-qa-ssap.smiddle.lab:8080">
+        <fileTransfer host="sm-qa-ssap.smiddle.lab" port="22" rootFolder="/tomcat/webapps" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="aecd4449-3fb0-421c-89a5-4266a6a5f09b" name="10.100.90.14" url="http://10.100.70.154:8080">
+        <fileTransfer host="10.100.90.14" port="22" rootFolder="/tomcat" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="be5a737e-8c6d-4c39-beae-71dcdcadc2ec" name="sm-dev-campmgr" url="http://sm-dev-mgr.smiddle.lab:8080">
+        <fileTransfer host="sm-dev-campmgr.smiddle.lab" port="22" rootFolder="/tomcat/webapps" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9a4cc361-8f48-4cfd-bee9-097940feea2f" name="sm-dev-scm" url="http://sm-dev-smc.smiddle.lab:8080">
+        <fileTransfer host="sm-dev-scm.smiddle.lab" port="22" rootFolder="/tomcat/webapps" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="98d9e130-dc43-47b9-939e-7b38fbf5d7db" name="sm-qa-scm" url="http://sm-qa-smc.smiddle.lab:8080">
+        <fileTransfer host="sm-qa-scm.smiddle.lab" port="22" rootFolder="/tomcat/webapps" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="93368b3a-e5b6-4ab0-b77c-14f01fbc5d8f" name="sm-qa-campmgr" url="http://sm-qa-mgr.smiddle.lab:8080">
+        <fileTransfer host="sm-qa-campmgr.smiddle.lab" port="22" rootFolder="/tomcat/webapps" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="41f8d18b-61a4-48f9-aed4-ca91cb9e415a" name="sm-qa-ins" url="http://sm-qa-ins.smiddle.lab:8080">
+        <fileTransfer host="sm-qa-ins.smiddle.lab" port="22" rootFolder="/tomcat/webapps" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="7362c32a-5857-4ffd-b0ab-1b2ce66754d8" name="sm-qa-oracle" url="http://sm-qa-oracle.smiddle.lab:8080">
+        <fileTransfer host="sm-qa-oracle.smiddle.lab" port="22" rootFolder="/tomcat/webapps" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1997a615-2c9e-42f5-9c5c-1f2ff23efd97" name="sm-dev-ins" url="http://10.100.70.150:8080">
+        <fileTransfer host="sm-dev-ins.smiddle.lab" port="22" rootFolder="/tomcat/webapps" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d4f0e3f8-8393-494d-b58b-5496d4d6abe9" name="10.100.70.164" url="http://10.100.70.164:8080">
+        <fileTransfer host="10.100.70.164" port="22" rootFolder="/tomcat" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
