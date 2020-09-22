@@ -1,0 +1,30 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="10.100.70.157" id="48e1e56b-0360-4cc8-b5cb-da2039fea6e7" port="22" customName="10.100.70.157 (project level)" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="10.100.80.25" id="4790d3cd-a36f-4e8b-b73c-80928258beb7" port="22" customName="10.100.80.25" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="10.100.80.19" id="56eb9534-f80c-4434-841d-e6c095b5ca97" port="22" customName="10.100.80.19" nameFormat="CUSTOM" username="admin" />
+      <sshConfig authType="PASSWORD" host="10.100.80.27" id="448edb1c-3510-4d67-a75a-7aab14a0441d" port="22" customName="10.100.80.27" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="10.100.80.31" id="1f67fbdb-3e2e-4f39-9692-0b9a3f3b6d4e" port="22" customName="10.100.80.31" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="10.100.80.34" id="35fe210e-2a1d-4ea8-b93d-660e9685b6d6" port="22" customName="10.100.80.34" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="10.100.70.154" id="d6350ef1-5d9d-4546-9290-6bba89f97648" port="22" customName="10.100.70.154" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="10.100.70.59" id="c23916d7-aa2e-4c00-b402-30d706a6de67" port="22" customName="10.100.70.59" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="10.100.80.26" id="890bfff6-51a9-4867-8495-a846c4470ef8" port="22" customName="10.100.80.26" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="10.100.80.30" id="63b6b696-fd80-45e6-bca2-e9be55c4ea9a" port="22" customName="10.100.80.30" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="sm-dev-smc.smiddle.lab" id="cf171e8e-3639-4619-819c-5287f71e4746" port="22" customName="sm-dev-smc" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="sm-qa-smc.smiddle.lab" id="d0810aa5-9d66-49d5-bda5-95418bc3ef1e" port="22" customName="sm-qa-smc" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="sm-dev-rec2.smiddle.lab" id="1278ab70-ba0b-44f3-9cce-856ea9158ef1" port="22" customName="sm-dev-rec2" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="sm-dev-mgr.smiddle.lab" id="6c18062f-c632-4139-9160-bd0bf28b7906" port="22" customName="sm-dev-mgr" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="sm-dev-rec1.smiddle.lab" id="59648f94-d1d8-461e-bd77-86b870ed7312" port="22" customName="sm-dev-rec1" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="sm-dev-smcb.smiddle.lab" id="7a0a2e3a-e70f-485e-9889-333be0b8ce88" port="22" customName="sm-dev-smcb" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="sm-dev-smca.smiddle.lab" id="9cd171a9-85b0-49d2-ac9f-e1846e4d90ed" port="22" customName="sm-dev-smca" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="sm-qa-rec2.smiddle.lab" id="1a31b375-f448-4f81-b879-a3ffc9f036a8" port="22" customName="sm-qa-rec2" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="10.100.70.170" id="2ef1812b-2b01-499e-8cd1-cca7e0facfb8" port="22" customName="sm-dev-voiceid" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="79.143.20.53" id="0b4ab53f-ae4d-4e4c-8710-0a05e528aaf5" port="10002" customName="remote" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="10.100.70.31" id="62ba8887-80ec-43d3-927d-cd3308dc4b3e" port="22" customName="sm-qa-voiceid" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="10.100.70.150" id="00f67561-2db5-4e96-8f72-03ad62e7f6ee" port="22" customName="sm-dev-svb" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="sm-dev-fs.smiddle.lab" id="4dc0dfe4-bd7a-487a-9262-04d635d3f80b" port="22" customName="sm-dev-fs" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="sm-dev-fs.smiddle.lab" id="0ff52424-8d9a-47df-ae05-6b5725216c2d" port="22" customName="sm-dev-fs" nameFormat="CUSTOM" username="root" />
+    </configs>
+  </component>
+</application>
