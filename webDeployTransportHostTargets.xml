@@ -1182,6 +1182,26 @@
           </option>
           <option name="targetPath" value="" />
         </WebDeploymentTransportHostTarget>
+        <WebDeploymentTransportHostTarget>
+          <option name="hostId" value="a6834ce8-5e3e-4cfe-b59f-33bbc9aba61b" />
+          <option name="target">
+            <TransportTarget>
+              <option name="id" value="195c6620-858a-41f5-a184-e8f8413b2dcb" />
+              <id>195c6620-858a-41f5-a184-e8f8413b2dcb</id>
+            </TransportTarget>
+          </option>
+          <option name="targetPath" value="" />
+        </WebDeploymentTransportHostTarget>
+        <WebDeploymentTransportHostTarget>
+          <option name="hostId" value="a6834ce8-5e3e-4cfe-b59f-33bbc9aba61b" />
+          <option name="target">
+            <TransportTarget>
+              <option name="id" value="15ee7f40-6571-4ba0-8813-b1bd048aea61" />
+              <id>15ee7f40-6571-4ba0-8813-b1bd048aea61</id>
+            </TransportTarget>
+          </option>
+          <option name="targetPath" value="/SmiddleAgentScripting##3.4-SNAPSHOT" />
+        </WebDeploymentTransportHostTarget>
       </list>
     </option>
   </component>
