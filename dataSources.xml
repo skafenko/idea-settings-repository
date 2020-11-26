@@ -4,7 +4,7 @@
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://sm-qa-db.smiddle.lab:3306</jdbc-url>
+      <jdbc-url>jdbc:mysql://sm-qa-db.smiddle.lab:3306/SM_QA_DB</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="SM_DEV_DB" uuid="539b4ce4-009f-4b97-a97f-b834995bae0b">
       <driver-ref>mysql</driver-ref>
