@@ -1,7 +1,7 @@
 <application>
   <component name="dataSourceStorage" format="xml" multifile-model="true">
     <data-source source="LOCAL" name="SM_QA_DB" uuid="df7df86a-8390-4926-b754-9e6610485cf1">
-      <driver-ref>mysql</driver-ref>
+      <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://sm-qa-db:3306/SM_QA_DB</jdbc-url>
