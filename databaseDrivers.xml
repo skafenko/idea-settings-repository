@@ -63,7 +63,7 @@
       <option name="format-sources-on-sync" value="true" />
       <option name="source-loading" value="USER_SOURCES" />
     </driver>
-    <driver id="oracle" driver-class="oracle.jdbc.driver.OracleDriver">
+    <driver id="oracle">
       <artifact name="Oracle" use="true" version="12.2.0.1" />
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="false" />
