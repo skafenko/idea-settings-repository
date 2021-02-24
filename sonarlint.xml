@@ -1,129 +1,9 @@
 <application>
   <component name="SonarLintGlobalSettings">
-    <option name="excludedRules">
-      <set>
-        <option value="java:S1244" />
-        <option value="java:S3864" />
-        <option value="java:S3958" />
-        <option value="squid:AssignmentInSubExpressionCheck" />
-        <option value="squid:MaximumInheritanceDepth" />
-        <option value="squid:RedundantThrowsDeclarationCheck" />
-        <option value="squid:S00100" />
-        <option value="squid:S00107" />
-        <option value="squid:S00112" />
-        <option value="squid:S00120" />
-        <option value="squid:S1075" />
-        <option value="squid:S1125" />
-        <option value="squid:S1165" />
-        <option value="squid:S1170" />
-        <option value="squid:S1186" />
-        <option value="squid:S1191" />
-        <option value="squid:S1199" />
-        <option value="squid:S1214" />
-        <option value="squid:S1301" />
-        <option value="squid:S1452" />
-        <option value="squid:S1610" />
-        <option value="squid:S1710" />
-        <option value="squid:S1948" />
-        <option value="squid:S2142" />
-        <option value="squid:S2187" />
-        <option value="squid:S2229" />
-        <option value="squid:S2234" />
-        <option value="squid:S2696" />
-        <option value="squid:S2975" />
-        <option value="squid:S3358" />
-        <option value="squid:S3420" />
-        <option value="squid:S3510" />
-        <option value="squid:S3776" />
-        <option value="squid:S4424" />
-        <option value="squid:S4684" />
-        <option value="squid:SwitchLastCaseIsDefaultCheck" />
-      </set>
-    </option>
     <option name="fileExclusions">
       <list>
         <option value="**/*.xml" />
       </list>
-    </option>
-    <option name="includedRules">
-      <set>
-        <option value="squid:CallToFileDeleteOnExitMethod" />
-        <option value="squid:ClassCyclomaticComplexity" />
-        <option value="squid:LeftCurlyBraceEndLineCheck" />
-        <option value="squid:NoSonar" />
-        <option value="squid:ParsingError" />
-        <option value="squid:RightCurlyBraceSameLineAsNextBlockCheck" />
-        <option value="squid:RightCurlyBraceStartLineCheck" />
-        <option value="squid:S00104" />
-        <option value="squid:S00121" />
-        <option value="squid:S00122" />
-        <option value="squid:S1132" />
-        <option value="squid:S1145" />
-        <option value="squid:S1147" />
-        <option value="squid:S1160" />
-        <option value="squid:S1194" />
-        <option value="squid:S1213" />
-        <option value="squid:S1228" />
-        <option value="squid:S1244" />
-        <option value="squid:S1310" />
-        <option value="squid:S1312" />
-        <option value="squid:S1314" />
-        <option value="squid:S1315" />
-        <option value="squid:S138" />
-        <option value="squid:S1448" />
-        <option value="squid:S1641" />
-        <option value="squid:S1695" />
-        <option value="squid:S1696" />
-        <option value="squid:S1697" />
-        <option value="squid:S1698" />
-        <option value="squid:S1711" />
-        <option value="squid:S1821" />
-        <option value="squid:S1850" />
-        <option value="squid:S1939" />
-        <option value="squid:S1942" />
-        <option value="squid:S1996" />
-        <option value="squid:S2039" />
-        <option value="squid:S2047" />
-        <option value="squid:S2059" />
-        <option value="squid:S2063" />
-        <option value="squid:S2070" />
-        <option value="squid:S2089" />
-        <option value="squid:S2096" />
-        <option value="squid:S2141" />
-        <option value="squid:S2148" />
-        <option value="squid:S2156" />
-        <option value="squid:S2162" />
-        <option value="squid:S2164" />
-        <option value="squid:S2196" />
-        <option value="squid:S2197" />
-        <option value="squid:S2203" />
-        <option value="squid:S2250" />
-        <option value="squid:S2333" />
-        <option value="squid:S2444" />
-        <option value="squid:S2693" />
-        <option value="squid:S2701" />
-        <option value="squid:S2959" />
-        <option value="squid:S2973" />
-        <option value="squid:S3047" />
-        <option value="squid:S3052" />
-        <option value="squid:S3254" />
-        <option value="squid:S3282" />
-        <option value="squid:S3306" />
-        <option value="squid:S3329" />
-        <option value="squid:S3369" />
-        <option value="squid:S3373" />
-        <option value="squid:S3419" />
-        <option value="squid:S3553" />
-        <option value="squid:S3658" />
-        <option value="squid:S3750" />
-        <option value="squid:S3937" />
-        <option value="squid:S4174" />
-        <option value="squid:S4266" />
-        <option value="squid:S4288" />
-        <option value="squid:S4551" />
-        <option value="squid:S818" />
-        <option value="squid:S888" />
-      </set>
     </option>
     <option name="sonarQubeServers">
       <list>
@@ -136,5 +16,119 @@
         </SonarQubeServer>
       </list>
     </option>
+    <rules>
+      <Rule key="squid:RightCurlyBraceSameLineAsNextBlockCheck" />
+      <Rule active="false" key="java:S3958" />
+      <Rule key="squid:S1314" />
+      <Rule active="false" key="squid:S1710" />
+      <Rule key="squid:S1315" />
+      <Rule key="squid:S1711" />
+      <Rule key="squid:S2089" />
+      <Rule key="squid:S4266" />
+      <Rule active="false" key="squid:S00107" />
+      <Rule key="squid:S00104" />
+      <Rule key="squid:S1312" />
+      <Rule key="squid:S1310" />
+      <Rule active="false" key="squid:S4424" />
+      <Rule active="false" key="squid:S00100" />
+      <Rule key="squid:S3052" />
+      <Rule active="false" key="java:S1244" />
+      <Rule key="squid:S1448" />
+      <Rule active="false" key="squid:S1165" />
+      <Rule key="squid:LeftCurlyBraceEndLineCheck" />
+      <Rule key="squid:S4551" />
+      <Rule active="false" key="squid:S00112" />
+      <Rule key="squid:S2096" />
+      <Rule key="squid:S2250" />
+      <Rule key="squid:S1160" />
+      <Rule key="squid:S1939" />
+      <Rule active="false" key="squid:SwitchLastCaseIsDefaultCheck" />
+      <Rule active="false" key="squid:S2229" />
+      <Rule key="squid:RightCurlyBraceStartLineCheck" />
+      <Rule key="squid:S1132" />
+      <Rule key="squid:S3553" />
+      <Rule active="false" key="squid:MaximumInheritanceDepth" />
+      <Rule active="false" key="squid:S2187" />
+      <Rule key="squid:S2063" />
+      <Rule active="false" key="java:S3864" />
+      <Rule active="false" key="squid:RedundantThrowsDeclarationCheck" />
+      <Rule key="squid:S3329" />
+      <Rule key="squid:S1821" />
+      <Rule key="squid:S1942" />
+      <Rule active="false" key="squid:S1948" />
+      <Rule key="squid:S3047" />
+      <Rule key="squid:S2197" />
+      <Rule key="squid:S1147" />
+      <Rule active="false" key="squid:S1301" />
+      <Rule key="squid:S1145" />
+      <Rule active="false" key="squid:S2234" />
+      <Rule key="squid:S2070" />
+      <Rule key="squid:S2196" />
+      <Rule key="squid:S3282" />
+      <Rule key="squid:ParsingError" />
+      <Rule key="squid:S1996" />
+      <Rule key="squid:S3658" />
+      <Rule key="squid:S3937" />
+      <Rule key="squid:S3419" />
+      <Rule active="false" key="squid:S1199" />
+      <Rule key="squid:S2164" />
+      <Rule key="squid:S3254" />
+      <Rule active="false" key="squid:S1075" />
+      <Rule key="squid:S2203" />
+      <Rule active="false" key="squid:S3776" />
+      <Rule key="squid:S2047" />
+      <Rule key="squid:S2444" />
+      <Rule active="false" key="squid:S1191" />
+      <Rule key="squid:NoSonar" />
+      <Rule key="squid:S1194" />
+      <Rule key="squid:S2162" />
+      <Rule key="squid:S3373" />
+      <Rule key="squid:S3306" />
+      <Rule active="false" key="squid:S2975" />
+      <Rule active="false" key="squid:S3420" />
+      <Rule key="squid:S2693" />
+      <Rule key="squid:S2973" />
+      <Rule active="false" key="squid:S1125" />
+      <Rule key="squid:S1244" />
+      <Rule key="squid:S2333" />
+      <Rule active="false" key="squid:S2696" />
+      <Rule key="squid:S1641" />
+      <Rule key="squid:S2059" />
+      <Rule key="squid:CallToFileDeleteOnExitMethod" />
+      <Rule key="squid:S888" />
+      <Rule key="squid:S2701" />
+      <Rule key="squid:S3750" />
+      <Rule active="false" key="squid:S1452" />
+      <Rule key="squid:S4288" />
+      <Rule active="false" key="squid:S2142" />
+      <Rule active="false" key="squid:S4684" />
+      <Rule key="squid:S1213" />
+      <Rule key="squid:S1697" />
+      <Rule key="squid:S2148" />
+      <Rule key="squid:S1698" />
+      <Rule active="false" key="squid:S1214" />
+      <Rule active="false" key="squid:S1610" />
+      <Rule active="false" key="squid:S3358" />
+      <Rule key="squid:S1695" />
+      <Rule key="squid:S1696" />
+      <Rule key="squid:S1850" />
+      <Rule active="false" key="squid:S3510" />
+      <Rule key="squid:S00122" />
+      <Rule active="false" key="squid:S00120" />
+      <Rule key="squid:S00121" />
+      <Rule key="squid:S2141" />
+      <Rule active="false" key="squid:S1170" />
+      <Rule key="squid:ClassCyclomaticComplexity" />
+      <Rule key="squid:S1228" />
+      <Rule active="false" key="squid:AssignmentInSubExpressionCheck" />
+      <Rule key="squid:S138" />
+      <Rule key="squid:S2959" />
+      <Rule key="squid:S2156" />
+      <Rule key="squid:S818" />
+      <Rule active="false" key="squid:S1186" />
+      <Rule key="squid:S2039" />
+      <Rule key="squid:S3369" />
+      <Rule key="squid:S4174" />
+    </rules>
   </component>
 </application>
