@@ -31,5 +31,11 @@
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://10.100.90.14:3306</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="192.168.101.254" uuid="6531e3dc-21dd-4ffc-8ae5-10550ad3e2c9">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.101.254:3306/SMIDDLE</jdbc-url>
+    </data-source>
   </component>
 </application>
