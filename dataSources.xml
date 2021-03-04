@@ -37,5 +37,11 @@
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://192.168.101.254:3306/SMIDDLE</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="MSSQL" uuid="2cc0db7d-5001-4a40-8372-964f00362414">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://10.100.80.52:1433;database=inst1_baA</jdbc-url>
+    </data-source>
   </component>
 </application>
