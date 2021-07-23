@@ -31,17 +31,24 @@
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://10.100.90.14:3306</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="192.168.101.254" uuid="6531e3dc-21dd-4ffc-8ae5-10550ad3e2c9">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://192.168.101.254:3306/SMIDDLE</jdbc-url>
-    </data-source>
     <data-source source="LOCAL" name="MSSQL" uuid="2cc0db7d-5001-4a40-8372-964f00362414">
       <driver-ref>sqlserver.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://10.100.80.52:1433;database=inst1_baA</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="SBER_PROD" uuid="7f3cd543-bb7a-498e-a0d7-e84af6071055">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@msdb-kv0.sbrf.ua.loc:1521:SMIDDLE</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="PROD_VOLIA" uuid="8afc064f-ce7e-4c68-8e51-7297fd3fde47">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.10.27.68:3306</jdbc-url>
     </data-source>
   </component>
 </application>
