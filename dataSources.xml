@@ -50,5 +50,11 @@
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://10.10.27.68:3306</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="ALOQA_10.100.70.231" uuid="ef4fdf66-0298-4bcc-afaf-3b96e351eea0">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.100.70.231:3306</jdbc-url>
+    </data-source>
   </component>
 </application>
