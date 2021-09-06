@@ -56,5 +56,11 @@
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://10.100.70.231:3306</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="INS_TEST" uuid="cc1fe53e-5d40-43b8-9029-6331223ac9f2">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.101.254:3306/SMIDDLE</jdbc-url>
+    </data-source>
   </component>
 </application>
