@@ -16,6 +16,7 @@
       <mapping ext="mp4" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="raw" type="PLAIN_TEXT" />
+      <mapping ext="t" type="PLAIN_TEXT" />
       <mapping ext="mt940" type="PLAIN_TEXT" />
       <removed_mapping ext="wav" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
