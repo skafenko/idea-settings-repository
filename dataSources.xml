@@ -80,5 +80,11 @@
         <property name="serverTimezone" value="UTC" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="NBU_TEST" uuid="6e541cfa-dda0-4eb8-b4aa-0459f5d8f490">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.100.70.128:3306/TEST</jdbc-url>
+    </data-source>
   </component>
 </application>
