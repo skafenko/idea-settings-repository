@@ -353,6 +353,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="c1934ee9-cd54-44a6-b4a7-4a300f49ff93" name="sm-pd-smc" url="http://sm-pd-smc.smiddle.lab:8080">
+        <fileTransfer host="sm-pd-smc.smiddle.lab" port="22" rootFolder="/tomcat/webapps" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
