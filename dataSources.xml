@@ -86,5 +86,11 @@
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://10.100.70.128:3306/TEST</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="PREDEMO" uuid="d36ae660-2c58-45e1-b912-ef6255fa8d22">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.100.80.80:3306/PREDEMO</jdbc-url>
+    </data-source>
   </component>
 </application>
