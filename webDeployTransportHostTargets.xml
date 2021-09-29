@@ -1582,6 +1582,46 @@
           </option>
           <option name="targetPath" value="" />
         </WebDeploymentTransportHostTarget>
+        <WebDeploymentTransportHostTarget>
+          <option name="hostId" value="c1934ee9-cd54-44a6-b4a7-4a300f49ff93" />
+          <option name="target">
+            <TransportTarget>
+              <option name="id" value="195c6620-858a-41f5-a184-e8f8413b2dcb" />
+              <id>195c6620-858a-41f5-a184-e8f8413b2dcb</id>
+            </TransportTarget>
+          </option>
+          <option name="targetPath" value="" />
+        </WebDeploymentTransportHostTarget>
+        <WebDeploymentTransportHostTarget>
+          <option name="hostId" value="c1934ee9-cd54-44a6-b4a7-4a300f49ff93" />
+          <option name="target">
+            <TransportTarget>
+              <option name="id" value="15ee7f40-6571-4ba0-8813-b1bd048aea61" />
+              <id>15ee7f40-6571-4ba0-8813-b1bd048aea61</id>
+            </TransportTarget>
+          </option>
+          <option name="targetPath" value="" />
+        </WebDeploymentTransportHostTarget>
+        <WebDeploymentTransportHostTarget>
+          <option name="hostId" value="ca35210e-c2a0-4a90-859d-e9c50bdc064d" />
+          <option name="target">
+            <TransportTarget>
+              <option name="id" value="195c6620-858a-41f5-a184-e8f8413b2dcb" />
+              <id>195c6620-858a-41f5-a184-e8f8413b2dcb</id>
+            </TransportTarget>
+          </option>
+          <option name="targetPath" value="" />
+        </WebDeploymentTransportHostTarget>
+        <WebDeploymentTransportHostTarget>
+          <option name="hostId" value="ca35210e-c2a0-4a90-859d-e9c50bdc064d" />
+          <option name="target">
+            <TransportTarget>
+              <option name="id" value="15ee7f40-6571-4ba0-8813-b1bd048aea61" />
+              <id>15ee7f40-6571-4ba0-8813-b1bd048aea61</id>
+            </TransportTarget>
+          </option>
+          <option name="targetPath" value="" />
+        </WebDeploymentTransportHostTarget>
       </list>
     </option>
   </component>
