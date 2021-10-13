@@ -92,5 +92,11 @@
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://10.100.80.80:3306/PREDEMO</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="PZU_PROD" uuid="92de7850-31ac-413a-9057-ade53ee398f2">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.25.48:3306/PZU</jdbc-url>
+    </data-source>
   </component>
 </application>
