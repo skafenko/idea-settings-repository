@@ -102,7 +102,7 @@
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://10.100.70.18:3306/SMIDDLE</jdbc-url>
+      <jdbc-url>jdbc:mysql://10.100.70.18:3306/</jdbc-url>
     </data-source>
   </component>
 </application>
