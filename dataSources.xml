@@ -104,5 +104,11 @@
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://10.100.70.18:3306/</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="ASAKA_PROD" uuid="4a10dc13-5267-48c0-a032-aac782741fe1">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://172.16.41.82:3306/ASAKA</jdbc-url>
+    </data-source>
   </component>
 </application>
