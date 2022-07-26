@@ -18,7 +18,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="cee6c3c6-e4f0-4a43-b638-38cc617e6a07" name="10.100.80.19" url="http://10.100.80.19:8080">
-        <fileTransfer host="10.100.80.19" port="22" rootFolder="/tomcat/tomcat-8.5.33/webapps" accessType="SFTP">
+        <fileTransfer host="10.100.80.19" port="22" rootFolder="/tomcat/webapps" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
