@@ -8,14 +8,15 @@
       <mapping pattern="updatRegisteredAccount" type="JSON" />
       <mapping ext="cfg" type="Native" />
       <mapping pattern="1" type="PLAIN_TEXT" />
-      <mapping pattern="е" type="PLAIN_TEXT" />
+      <mapping pattern="mockito-extensions" type="PLAIN_TEXT" />
       <mapping pattern="mvnw" type="PLAIN_TEXT" />
       <mapping pattern="as" type="PLAIN_TEXT" />
+      <mapping pattern="updatRegisteredAccount.json" type="PLAIN_TEXT" />
       <mapping pattern="s" type="PLAIN_TEXT" />
       <mapping pattern="f" type="PLAIN_TEXT" />
       <mapping pattern="в" type="PLAIN_TEXT" />
       <mapping pattern="а" type="PLAIN_TEXT" />
-      <mapping pattern="updatRegisteredAccount.json" type="PLAIN_TEXT" />
+      <mapping pattern="е" type="PLAIN_TEXT" />
       <mapping pattern="2" type="PLAIN_TEXT" />
       <mapping ext="1" type="PLAIN_TEXT" />
       <mapping ext="crt" type="PLAIN_TEXT" />
