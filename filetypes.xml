@@ -21,6 +21,7 @@
       <mapping ext="1" type="PLAIN_TEXT" />
       <mapping ext="crt" type="PLAIN_TEXT" />
       <mapping ext="mp4" type="PLAIN_TEXT" />
+      <mapping ext="mockmaker" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="raw" type="PLAIN_TEXT" />
       <mapping ext="t" type="PLAIN_TEXT" />
