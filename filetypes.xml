@@ -9,14 +9,14 @@
       <mapping ext="cfg" type="Native" />
       <mapping pattern="1" type="PLAIN_TEXT" />
       <mapping pattern="mockito-extensions" type="PLAIN_TEXT" />
+      <mapping pattern="е" type="PLAIN_TEXT" />
       <mapping pattern="mvnw" type="PLAIN_TEXT" />
       <mapping pattern="as" type="PLAIN_TEXT" />
-      <mapping pattern="updatRegisteredAccount.json" type="PLAIN_TEXT" />
       <mapping pattern="s" type="PLAIN_TEXT" />
       <mapping pattern="f" type="PLAIN_TEXT" />
       <mapping pattern="в" type="PLAIN_TEXT" />
       <mapping pattern="а" type="PLAIN_TEXT" />
-      <mapping pattern="е" type="PLAIN_TEXT" />
+      <mapping pattern="updatRegisteredAccount.json" type="PLAIN_TEXT" />
       <mapping pattern="2" type="PLAIN_TEXT" />
       <mapping ext="1" type="PLAIN_TEXT" />
       <mapping ext="crt" type="PLAIN_TEXT" />
@@ -24,6 +24,7 @@
       <mapping ext="mockmaker" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="raw" type="PLAIN_TEXT" />
+      <mapping ext="proto" type="PLAIN_TEXT" />
       <mapping ext="t" type="PLAIN_TEXT" />
       <mapping ext="mt940" type="PLAIN_TEXT" />
       <removed_mapping ext="wav" approved="true" type="PLAIN_TEXT" />
