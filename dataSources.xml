@@ -116,11 +116,11 @@
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://10.100.70.233:3306/SMIDDLE</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="INSURANCE" uuid="d8eb73ec-a3f0-470a-a175-c0a99911f0dd">
+    <data-source source="LOCAL" name="WUCE" uuid="d8eb73ec-a3f0-470a-a175-c0a99911f0dd">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://10.100.70.10:3306/SMIDDLE</jdbc-url>
+      <jdbc-url>jdbc:mysql://10.100.70.187:3306/SMIDDLE</jdbc-url>
     </data-source>
   </component>
 </application>
