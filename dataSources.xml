@@ -122,5 +122,23 @@
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://10.100.70.187:3306/SMIDDLE</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="Galera_Cluster" uuid="2f28021a-247e-438a-b157-098afe8d416b">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://galera3.smiddle.lab:3307</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Galera_Cluster_1" uuid="fa7827b6-6229-4462-8042-27e67a8374ae">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://galera1.smiddle.lab:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Galera_Cluster_2" uuid="f866b7c6-c5ae-4661-a6b6-8fdf7b33e308">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://galera2.smiddle.lab:3306</jdbc-url>
+    </data-source>
   </component>
 </application>
