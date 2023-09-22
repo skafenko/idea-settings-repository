@@ -262,6 +262,10 @@
           <option name="url" value="https://github.com/GNOME/gst-debugger.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/SMIDDLEgroup/BE_Dashboard_SOS.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\" />
