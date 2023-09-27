@@ -1,11 +1,5 @@
 <application>
   <component name="dataSourceStorage" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="SM_QA_DB" uuid="df7df86a-8390-4926-b754-9e6610485cf1">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://sm-qa-db:3306/SM_QA_DB</jdbc-url>
-    </data-source>
     <data-source source="LOCAL" name="SM_DEV_DB" uuid="539b4ce4-009f-4b97-a97f-b834995bae0b">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
@@ -61,15 +55,6 @@
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://192.168.101.254:3306/SMIDDLE</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="SM_DEV_DB_8" uuid="0da3347e-7587-4340-9270-fa084a868e8f">
-      <driver-ref>java.sql.Driver</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://10.100.70.119:3306</jdbc-url>
-      <driver-properties>
-        <property name="serverTimezone" value="UTC" />
-      </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="SM_QA_DB_8" uuid="a9abaf92-172c-48a5-bab4-6185718233d7">
       <driver-ref>mysql.8</driver-ref>
