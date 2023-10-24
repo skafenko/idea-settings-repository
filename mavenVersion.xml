@@ -1,3 +1,3 @@
 <application>
-  <component name="MavenVersion" vmOptions="-Xmx4072m" embedderJdk="17" mavenHome="Use Maven wrapper" />
+  <component name="MavenVersion" vmOptions="-Xmx4072m" embedderJdk="17" mavenHome="D:/Maven/apache-maven-3.5.4" />
 </application>
